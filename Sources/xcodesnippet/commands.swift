@@ -12,7 +12,7 @@ import ArgumentParser
 struct Xcodesnippet: ParsableCommand {
     static var configuration = CommandConfiguration(
         abstract: "A command line utility for managing Code Snippets of XCode.",
-        version: "0.0.1",
+        version: "0.0.2",
         subcommands: [Install.self, RemoteInstall.self, Show.self, Remove.self, List.self, Open.self, Export.self],
         defaultSubcommand: Install.self
     )
